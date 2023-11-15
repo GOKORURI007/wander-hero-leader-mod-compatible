@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: upload
+name: upload2workshop
 
 # Controls when the workflow will run
 on:
@@ -44,7 +44,7 @@ jobs:
           # Workshop Item ID
           itemid: 3083901155
           # Path of folder to upload
-          path: /
+          path: ./
           # Changenote of this update
           changenote: ""# optional, default is Upload triggered by GitHub Actions workflow.
         env:
