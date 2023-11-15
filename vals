@@ -19,5 +19,5 @@
 		"melee": "common_baseJump",
 		"range": "range_bowShoot",
 		"aoe": "aoe_magicArrow"
-	},
+	}
 ]
