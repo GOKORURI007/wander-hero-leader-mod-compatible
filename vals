@@ -1,23 +1,23 @@
-[
-	"_initCardsGrp":
-	{
-		"melee": ["common_punch", "common_punch", "common_punch", "common_heavyStrike", "common_parry", "common_parry", "common_parry", "common_powerUp"],
-		"range": ["range_bowShoot", "range_bowShoot", "range_bowShoot", "common_daggerStorm", "common_parry", "common_parry", "common_parry", "common_continueAction"],
-		"aoe": ["aoe_magicArrow", "aoe_magicArrow", "aoe_magicArrow", "common_bomb", "common_parry", "common_parry", "common_parry", "common_breakArmor"],
-		"test": ["common_insight", "common_insight", "common_insight", "common_insight"]
-	},
-	
-	"_lvHeroCardsTag":
-	{
-		"melee": ["melee0 melee1", "melee0 melee1 melee2 melee3", "melee2 melee3 melee4"],
-		"range": ["range0 range1", "range0 range1 range2 range3", "range2 range3 range4"],
-		"aoe": ["aoe0 aoe1", "aoe0 aoe1 aoe2 aoe3", "aoe2 aoe3 aoe4"]
-	},
-	
-	"_classBaseCard":
-	{
-		"melee": "common_baseJump",
-		"range": "range_bowShoot",
-		"aoe": "aoe_magicArrow"
-	}
-]
+{
+    "_initCardsGrp":
+    {
+        "melee": [ "common_punch", "common_punch", "common_punch", "common_heavyStrike", "common_parry", "common_parry", "common_parry", "common_powerUp" ],
+        "range": [ "range_bowShoot", "range_bowShoot", "range_bowShoot", "common_daggerStorm", "common_parry", "common_parry", "common_parry", "common_continueAction" ],
+        "aoe": [ "aoe_magicArrow", "aoe_magicArrow", "aoe_magicArrow", "common_bomb", "common_parry", "common_parry", "common_parry", "common_breakArmor" ],
+        "test": [ "common_insight", "common_insight", "common_insight", "common_insight" ]
+    },
+
+    "_lvHeroCardsTag":
+    {
+        "melee": [ "melee0 melee1", "melee0 melee1 melee2 melee3", "melee2 melee3 melee4" ],
+        "range": [ "range0 range1", "range0 range1 range2 range3", "range2 range3 range4" ],
+        "aoe": [ "aoe0 aoe1", "aoe0 aoe1 aoe2 aoe3", "aoe2 aoe3 aoe4" ]
+    },
+
+    "_classBaseCard":
+    {
+        "melee": "common_baseJump",
+        "range": "range_bowShoot",
+        "aoe": "aoe_magicArrow"
+    }
+}
