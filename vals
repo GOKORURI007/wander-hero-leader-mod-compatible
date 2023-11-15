@@ -5,7 +5,8 @@
         "range": [ "range_bowShoot", "range_bowShoot", "range_bowShoot", "common_daggerStorm", "common_parry", "common_parry", "common_parry", "common_continueAction" ],
         "aoe": [ "aoe_magicArrow", "aoe_magicArrow", "aoe_magicArrow", "common_bomb", "common_parry", "common_parry", "common_parry", "common_breakArmor" ],
         "test": [ "common_insight", "common_insight", "common_insight", "common_insight" ],
-        "assist": ["assist_summon_unit0", "assist_summon_unit0", "assist_summon_unit0", "common_parry", "common_parry", "common_parry"]
+        "assist": ["assist_summon_unit0", "assist_summon_unit0", "assist_summon_unit0", "common_parry", "common_parry", "common_parry"],
+        "guardian": ["common_punch", "common_punch", "common_shieldBash", "common_brutalImpact", "common_parry", "common_parry", "common_parry", "common_inspire"]
     },
 
     "_lvHeroCardsTag":
@@ -13,7 +14,8 @@
         "melee": [ "melee0 melee1", "melee0 melee1 melee2 melee3", "melee2 melee3 melee4" ],
         "range": [ "range0 range1", "range0 range1 range2 range3", "range2 range3 range4" ],
         "aoe": [ "aoe0 aoe1", "aoe0 aoe1 aoe2 aoe3", "aoe2 aoe3 aoe4" ],
-        "assist": ["assist0 assist1", "assist0 assist1 assist2 assist3", "assist2 assist3 assist4"]
+        "assist": ["assist0 assist1", "assist0 assist1 assist2 assist3", "assist2 assist3 assist4"],
+        "guardian": ["range0 melee1", "range0 melee1 melee2 melee3", "melee2 melee3 melee4"],
     },
 
     "_classBaseCard":
@@ -21,6 +23,7 @@
         "melee": "common_baseJump",
         "range": "range_bowShoot",
         "aoe": "aoe_magicArrow",
-        "assist": "common_baseJump"
+        "assist": "common_baseJump",
+        "guardian": "common_parry"
     }
 }
