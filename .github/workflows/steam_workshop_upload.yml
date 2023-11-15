@@ -25,13 +25,10 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: json-syntax-check
-        # You may pin to the exact commit or the version.
-        # uses: limitusus/json-syntax-check@94555527ace7b96df4a600874a4aafd735842780
-        uses: limitusus/json-syntax-check@v2.0.0
-        with:
-          # File regex pattern to check syntax
-          pattern: "vals"# default is \\.json$
+      - name: Validate JSON
+        uses: docker://orrosenblatt/validate-json-action:latest
+        env:
+          INPUT_JSONS: ./vals, ./modInfo
           
       
       - name: steam-workshop-upload
