@@ -25,10 +25,17 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Validate JSON
-        uses: docker://orrosenblatt/validate-json-action:latest
-        env:
-          INPUT_JSONS: ./vals, ./modInfo
+      - name: Run ESLint Reporter Action (using JSON file)
+        uses: rahmanrafi/eslint-reporter-action@v3
+        with:
+          json: ./vals
+          title: ESLint Report
+
+      - name: Run ESLint Reporter Action (using JSON file)
+        uses: rahmanrafi/eslint-reporter-action@v3
+        with:
+          json: ./modInfo
+          title: ESLint Report
           
       
       - name: steam-workshop-upload
