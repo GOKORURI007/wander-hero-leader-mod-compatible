@@ -15,7 +15,7 @@
         "range": [ "range0 range1", "range0 range1 range2 range3", "range2 range3 range4" ],
         "aoe": [ "aoe0 aoe1", "aoe0 aoe1 aoe2 aoe3", "aoe2 aoe3 aoe4" ],
         "assist": ["assist0 assist1", "assist0 assist1 assist2 assist3", "assist2 assist3 assist4"],
-        "guardian": ["range0 melee1", "range0 melee1 melee2 melee3", "melee2 melee3 melee4"],
+        "guardian": ["range0 melee1", "range0 melee1 melee2 melee3", "melee2 melee3 melee4"]
     },
 
     "_classBaseCard":
