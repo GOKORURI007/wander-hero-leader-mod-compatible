@@ -25,17 +25,21 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
 
-      - name: Run ESLint Reporter Action (using JSON file)
-        uses: rahmanrafi/eslint-reporter-action@v3
+      - name: check-validity
+        uses: johnstonmatt/is-valid-json-action@v.1.2.1
+        id: check-validity1
         with:
-          json: ./vals
-          title: ESLint Report
+          path-to-file: './modInfo'
+      - name: print-validity
+        run: echo "The modInfo file was valid JSON"
 
-      - name: Run ESLint Reporter Action (using JSON file)
-        uses: rahmanrafi/eslint-reporter-action@v3
+      - name: check-validity
+        uses: johnstonmatt/is-valid-json-action@v.1.2.1
+        id: check-validity
         with:
-          json: ./modInfo
-          title: ESLint Report
+          path-to-file: './vals'
+      - name: print-validity
+        run: echo "The vals file was valid JSON"
           
       
       - name: steam-workshop-upload
